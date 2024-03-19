@@ -1,0 +1,12 @@
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+D:\Универ\DEX практикум\TelegramBot\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Универ\DEX практикум\TelegramBot\Domain\bin\Debug\net7.0\Domain.dll
+D:\Универ\DEX практикум\TelegramBot\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.dll
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\ref\Domain.dll
