@@ -51,5 +51,7 @@ namespace Domain.Entities
             hash = hash * 23 + Id.GetHashCode();
             return hash;
         }
+        
+        //TODO переопределить == и !=
     }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o0LTgXjyUJo/FzevWghLHO6urHU4qUNowvylx9BKj6yxBjzTEMKoIC0+BY2ql3Cp9gaxMMaWXpLQl90yshqcdA==",
+  "dgSpecHash": "AfjEvmDRAdWlnZHOKtqGABfQuz6LDnyaYWgXg/vkngiBMUn77GHUlTPn33XV0dHciVQmA6ksHSsXaHZRp4R9Qg==",
   "success": true,
   "projectFilePath": "D:\\Универ\\DEX практикум\\TelegramBot\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilya\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
   "logs": []
 }
