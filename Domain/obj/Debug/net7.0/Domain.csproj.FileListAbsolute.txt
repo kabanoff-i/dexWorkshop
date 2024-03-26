@@ -10,3 +10,4 @@ D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domai
 D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.pdb
 D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Универ\DEX практикум\TelegramBot\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache

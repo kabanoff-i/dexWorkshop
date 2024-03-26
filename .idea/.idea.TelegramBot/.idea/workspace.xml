@@ -8,12 +8,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c54441e-9371-48e6-b678-eb47d8cc6578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain/Entities/CustomField.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Primitives/Gender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Entities/CustomField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/CustomField.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/ValueObjects/BaseValueObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ValueObjects/BaseValueObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Validators/CustomFieldValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/CustomFieldValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Validators/FullNameValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/FullNameValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Validators/PersonValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/PersonValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/ValueObjects/FullName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ValueObjects/FullName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +34,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kabanoff-i&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="72a65324-c642-40ec-a6ea-a2d62e9becf1" />
+        <option name="url" value="https://github.com/kabanoff-i/dexWorkshop.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Универ/DEX практикум/TelegramBot/Domain/Entities/BaseEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Универ/DEX практикум/TelegramBot/Domain/Entities/BaseEntity.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -39,7 +76,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -89,19 +127,43 @@
       <workItem from="1711439338588" duration="6018000" />
       <workItem from="1711452404434" duration="225000" />
       <workItem from="1711452666775" duration="638000" />
-      <workItem from="1711453360800" duration="1073000" />
+      <workItem from="1711453360800" duration="2997000" />
+      <workItem from="1712585872724" duration="6753000" />
+      <workItem from="1712599495805" duration="989000" />
     </task>
+    <task id="LOCAL-00001" summary="Validation added">
+      <option name="closed" value="true" />
+      <created>1711483040223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711483040223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -109,5 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Validation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation added" />
   </component>
 </project>

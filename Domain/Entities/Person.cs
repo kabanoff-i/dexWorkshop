@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Primitives;
+using Domain.Validators;
 
 namespace Domain.Entities
 {   /// <summary>
@@ -17,7 +18,9 @@ namespace Domain.Entities
         /// </summary>
         public Person()
         {
-            
+            var validator = new PersonValidator();
+
+            validator.Validate(this);
         }
         /// <summary>
         /// ФИО человека
@@ -26,7 +29,7 @@ namespace Domain.Entities
         /// <summary>
         /// Дата рождения человека
         /// </summary>
-        public DateTime Birthday { get; private set; }
+        public DateTime Birthday { get; set; }
         /// <summary>
         /// Возраст человека
         /// </summary>
