@@ -8,25 +8,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c54441e-9371-48e6-b678-eb47d8cc6578" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/Dtos/PersonGetByIdResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IPersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/MappingProfiles/FullNameProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/MappingProfiles/PersonProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Services/PersonService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/BaseEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/CustomField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/CustomField.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Primitives/ValidationMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Primitives/ValidationMessage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/Validators/CustomFieldValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/CustomFieldValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Validators/FullNameValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/FullNameValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Validators/PersonValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Validators/PersonValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/ValueObjects/FullName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/ValueObjects/FullName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net7.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/ref/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net7.0/refint/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramBot.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramBot.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +136,9 @@
       <workItem from="1711452666775" duration="638000" />
       <workItem from="1711453360800" duration="2997000" />
       <workItem from="1712585872724" duration="6753000" />
-      <workItem from="1712599495805" duration="989000" />
+      <workItem from="1712599495805" duration="1599000" />
+      <workItem from="1712645924740" duration="892000" />
+      <workItem from="1712646909783" duration="4730000" />
     </task>
     <task id="LOCAL-00001" summary="Validation added">
       <option name="closed" value="true" />
@@ -139,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711483040223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Validation added">
+      <option name="closed" value="true" />
+      <created>1712600824795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712600824795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

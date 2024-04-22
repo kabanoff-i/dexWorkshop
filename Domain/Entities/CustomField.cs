@@ -2,11 +2,11 @@ using Domain.Validators;
 
 namespace Domain.Entities;
 
-public class CustomField: BaseEntity
+public class CustomField<T>: BaseEntity
 {
     public CustomField()
     {
-        var validator = new CustomFieldValidator();
+        var validator = new CustomFieldValidator<T>();
 
         validator.Validate(this);
     }
@@ -17,5 +17,5 @@ public class CustomField: BaseEntity
     /// <summary>
     /// Значение поля
     /// </summary>
-    public string Value { get; set; }
+    public T Value { get; set; }
 }

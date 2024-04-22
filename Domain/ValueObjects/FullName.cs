@@ -1,55 +1,54 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Domain.Validators;
+﻿using Domain.Validators;
 
-namespace Domain.ValueObjects
+
+namespace Domain.ValueObjects;
+
+/// <summary>
+/// Полное имя
+/// </summary>
+public class FullName : BaseValueObject
 {
-    /// <summary>
-    /// Класс ФИО
-    /// </summary>
-    public class FullName : BaseValueObject
+    public FullName(string firstName, string lastName, string middleName)
     {
-        public FullName()
-        {
-            var validator = new FullNameValidator();
+        var validator = new FullNameValidator();
+        validator.Validate(this);
+    }
 
-            validator.Validate(this);
+    /// <summary>
+    /// Имя
+    /// </summary>
+    public string FirstName { get; private set; }
+
+    /// <summary>
+    /// Фамилия
+    /// </summary>
+    public string LastName { get; private set; }
+
+    /// <summary>
+    /// Отчество
+    /// </summary>
+    public string? MiddleName { get; private set; } = null;
+
+    public FullName Update(string? firstName, string? lastName, string? middleName)
+    {
+        if (firstName is not null)
+        {
+            FirstName = firstName;
         }
 
-        /// <summary>
-        /// Конструктор фамилия, имя
-        /// </summary>
-        /// <param name="firstName">Имя</param>
-        /// <param name="lastName">Фамилия</param>
-        public FullName(string firstName, string lastName):base()
+        if (lastName is not null)
         {
-            FirstName = firstName; 
             LastName = lastName;
         }
-        /// <summary>
-        /// Конструктор фамилия, имя, отчество
-        /// </summary>
-        /// <param name="firstName">Иия</param>
-        /// <param name="lastName">Фамилия</param>
-        /// <param name="middleName">Отчество (второе имя)</param>
-        public FullName(string firstName, string lastName, string? middleName) : this(firstName, lastName)
+
+        if (middleName is not null)
         {
             MiddleName = middleName;
         }
-        /// <summary>
-        /// Имя
-        /// </summary>
-        public required string FirstName {  get; set; }
-        /// <summary>
-        /// Фамилия
-        /// </summary>
-        public required string LastName { get; set; }
-        /// <summary>
-        /// Отчество (второе имя)
-        /// </summary>
-        public string? MiddleName { get; set; }
+
+        var validator = new FullNameValidator();
+        validator.Validate(this);
+
+        return this;
     }
 }

@@ -47,10 +47,17 @@ namespace Domain.Entities
         /// Пол
         /// </summary>
         public Gender Gender { get; set; }
-        
+        /// <summary>
+        /// Номер телефона
+        /// </summary>
+        public string PhoneNumber { get; set; }
+        /// <summary>
+        /// Ник в телеграм
+        /// </summary>
+        public string Telegram {  get; set; }
         /// <summary>
         /// Кастомные поля
         /// </summary>
-        public List<CustomField> CustomFields { get; set; }
+        public List<CustomField<string>> CustomFields { get; set; }
     }
 }
