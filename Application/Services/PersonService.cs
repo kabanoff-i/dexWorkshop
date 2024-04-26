@@ -15,14 +15,12 @@ public class PersonService
         _personRepository = personRepository;
         _mapper = mapper;
     }
-
     public PersonGetByIdResponse GetById(Guid id)
     {
         var person = _personRepository.GetById(id);
         var response = _mapper.Map<PersonGetByIdResponse>(person);
         return response;
     }
-
     public PersonCreateResponse Create(PersonCreateRequest personCreateRequest)
     {
         var person = _mapper.Map<Person>(personCreateRequest);

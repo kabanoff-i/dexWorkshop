@@ -18,4 +18,6 @@ public class CustomField<T>: BaseEntity
     /// Значение поля
     /// </summary>
     public T Value { get; set; }
+    public Guid PersonId { get; set; }
+    public Person Person { get; set; } = null!;
 }

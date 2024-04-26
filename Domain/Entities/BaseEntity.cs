@@ -53,7 +53,6 @@ namespace Domain.Entities
             hash = hash * 23 + Id.GetHashCode();
             return hash;
         }
-        //TODO переопределить == и !=
         /// <summary>
         /// Проверяет, равны ли два объекта BaseEntity.
         /// </summary>

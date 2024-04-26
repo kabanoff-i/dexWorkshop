@@ -37,11 +37,9 @@ namespace Domain.Entities
         {
             get 
             {
-                int age = DateTime.Now.Year - Birthday.Year;
-                if (DateTime.Now < Birthday.AddYears(age))
-                    age--;
-                return age;
+                return DateTime.Now.Year - Birthday.Year;
             }
+            set { }
         }
         /// <summary>
         /// Пол

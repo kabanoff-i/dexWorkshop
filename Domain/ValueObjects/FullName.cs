@@ -3,9 +3,6 @@
 
 namespace Domain.ValueObjects;
 
-/// <summary>
-/// Полное имя
-/// </summary>
 public class FullName : BaseValueObject
 {
     public FullName(string firstName, string lastName, string middleName)
