@@ -14,14 +14,22 @@ namespace Domain.Entities
     public class Person : BaseEntity
     {
         /// <summary>
-        /// Базовый конструктор.
+        /// Базовый конструктор
         /// </summary>
-        public Person()
+        public Person(): base()
         {
-            var validator = new PersonValidator();
-
-            validator.Validate(this);
+            
         }
+        public Person(string firstName, string lastName, string middleName, DateTime birtday, string gender, string phoneNumber, string telegram): base()
+        {
+            FullName = new FullName(firstName, lastName, middleName);
+            Birthday = birtday;
+            Gender = Enum.Parse<Gender>(gender);
+            PhoneNumber = phoneNumber;
+            Telegram = telegram;
+            CustomFields = new List<CustomField<string>>();
+        }
+        
         /// <summary>
         /// ФИО человека
         /// </summary>

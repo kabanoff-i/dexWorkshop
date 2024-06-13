@@ -37,9 +37,21 @@ public class PersonService
     public PersonUpdateResponse Update(PersonUpdateRequest personUpdateRequest)
     {
         var person = _personRepository.GetById(personUpdateRequest.Id);
+        if (person == null)
+            return null;
+        
         _mapper.Map(personUpdateRequest, person);
         var updatedPerson = _personRepository.Update(person);
         var response = _mapper.Map<PersonUpdateResponse>(updatedPerson);
+        
+        return response;
+    }
+
+    public List<PersonCreateResponse> GetAll()
+    {
+        var persons = _personRepository.GetAll();
+
+        var response = persons.Select(s => _mapper.Map<PersonCreateResponse>(s)).ToList();
         return response;
     }
 }

@@ -11,11 +11,17 @@ public class PersonProfile : Profile
     public PersonProfile()
     {
         CreateMap<PersonCreateRequest, Person>()
+            .ConstructUsing(src => new Person(
+                src.FirstName, src.LastName, src.MiddleName, src.BirthDay,
+                src.Gender, src.PhoneNumber, src.Telegram));
+
+        CreateMap<PersonCreateRequest, Person>()
             .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => new FullName(src.FirstName, src.LastName, src.MiddleName)))
             .ForMember(dest => dest.Birthday, opt => opt.MapFrom(src => src.BirthDay))
             .ForMember(dest => dest.Gender, opt => opt.MapFrom(src => Enum.Parse<Gender>(src.Gender)))
+            .ForMember(dest => dest.Telegram, opt => opt.MapFrom(src => src.Telegram))
             .ForMember(dest => dest.CustomFields, opt => opt.Ignore()); // Игнорирование, так как не задается при создании
-
+        
         CreateMap<Person, PersonUpdateResponse>(); // Маппинг для ответа обновления
 
         CreateMap<PersonUpdateRequest, Person>()

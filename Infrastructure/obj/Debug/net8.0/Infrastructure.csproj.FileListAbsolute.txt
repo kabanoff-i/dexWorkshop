@@ -119,3 +119,7 @@ D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8
 D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\Domain.dll
 D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\AutoMapper.dll
+D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\Application.dll
+D:\Универ\DEX практикум\TelegramBot\Infrastructure\bin\Debug\net8.0\Application.pdb

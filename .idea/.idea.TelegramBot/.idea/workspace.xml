@@ -11,32 +11,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c54441e-9371-48e6-b678-eb47d8cc6578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Migrations/20240506131114_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Migrations/20240506131114_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Api/PersonController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/EntityFramework/Repositories/PersonRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Application.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Application.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/AutoMapper.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TelegramBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Dtos/PersonCreateResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Dtos/PersonCreateResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interfaces/IPersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IPersonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Interfaces/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/MappingProfiles/PersonProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/MappingProfiles/PersonProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Services/PersonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/PersonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Configurations/CustomFieldConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Configurations/CustomFieldConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/Application.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net8.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net8.0/refint/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/EntityFramework/TelegramBotDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/EntityFramework/TelegramBotDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Migrations/20240505143550_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Migrations/20240505143550_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Migrations/TelegramBotDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Migrations/TelegramBotDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +258,10 @@
       <workItem from="1714301491813" duration="4105000" />
       <workItem from="1714914756474" duration="5547000" />
       <workItem from="1715000782662" duration="2409000" />
-      <workItem from="1715064932409" duration="473000" />
+      <workItem from="1715064932409" duration="1275000" />
+      <workItem from="1716108488262" duration="45000" />
+      <workItem from="1717483058167" duration="3572000" />
+      <workItem from="1718281179506" duration="11901000" />
     </task>
     <task id="LOCAL-00001" summary="Validation added">
       <option name="closed" value="true" />
@@ -297,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714921675302</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="EF added">
+      <option name="closed" value="true" />
+      <created>1715065499360</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715065499360</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,5 +374,63 @@
     <MESSAGE value="Automapper added, validation fixed" />
     <MESSAGE value="EF added" />
     <option name="LAST_COMMIT_MESSAGE" value="EF added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Infrastructure/EntityFramework/Repositories/PersonRepository.cs</url>
+          <line>31</line>
+          <properties documentPath="D:\Универ\DEX практикум\TelegramBot\Infrastructure\EntityFramework\Repositories\PersonRepository.cs" initialLine="31" containingFunctionPresentation="Method 'Create'">
+            <startOffsets>
+              <option value="768" />
+            </startOffsets>
+            <endOffsets>
+              <option value="802" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Infrastructure/Api/PersonController.cs</url>
+          <line>38</line>
+          <properties documentPath="D:\Универ\DEX практикум\TelegramBot\Infrastructure\Api\PersonController.cs" initialLine="38" containingFunctionPresentation="Method 'Create'">
+            <startOffsets>
+              <option value="838" />
+            </startOffsets>
+            <endOffsets>
+              <option value="862" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Infrastructure/Api/PersonController.cs</url>
+          <line>43</line>
+          <properties documentPath="D:\Универ\DEX практикум\TelegramBot\Infrastructure\Api\PersonController.cs" initialLine="43" containingFunctionPresentation="Method 'Create'">
+            <startOffsets>
+              <option value="933" />
+            </startOffsets>
+            <endOffsets>
+              <option value="991" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Application/Services/PersonService.cs</url>
+          <line>25</line>
+          <properties documentPath="D:\Универ\DEX практикум\TelegramBot\Application\Services\PersonService.cs" initialLine="25" containingFunctionPresentation="Method 'Create'">
+            <startOffsets>
+              <option value="716" />
+            </startOffsets>
+            <endOffsets>
+              <option value="770" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
